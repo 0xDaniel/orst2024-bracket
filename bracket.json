@@ -908,10 +908,10 @@
     {
       "ID": 8,
       "Team1Acronym": "nano",
-      "Team1Score": null,
+      "Team1Score": 6,
       "Team2Acronym": "Kehe",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 4,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
@@ -925,16 +925,15 @@
         "nano",
         "Kehe"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
       "ID": 25,
       "Team1Acronym": "etn",
-      "Team1Score": null,
+      "Team1Score": 6,
       "Team2Acronym": "Lucr",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 4,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
@@ -948,12 +947,13 @@
         "etn",
         "Lucr"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
       "ID": 16,
+      "Team1Acronym": "nano",
       "Team1Score": null,
+      "Team2Acronym": "etn",
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
@@ -965,7 +965,11 @@
         "X": 1810,
         "Y": 990
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "nano",
+        "etn"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 7
     },
     {
@@ -2090,10 +2094,10 @@
     {
       "ID": 33,
       "Team1Acronym": "acco",
-      "Team1Score": null,
+      "Team1Score": 6,
       "Team2Acronym": "Tudi",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 0,
+      "Completed": true,
       "Losers": true,
       "PicksBans": [],
       "Current": false,
@@ -2107,16 +2111,15 @@
         "acco",
         "Tudi"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
       "ID": 42,
       "Team1Acronym": "Saku",
-      "Team1Score": null,
+      "Team1Score": 0,
       "Team2Acronym": "Natu",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 6,
+      "Completed": true,
       "Losers": true,
       "PicksBans": [],
       "Current": false,
@@ -2136,10 +2139,10 @@
     {
       "ID": 50,
       "Team1Acronym": "Tina",
-      "Team1Score": null,
+      "Team1Score": 6,
       "Team2Acronym": "wors",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 2,
+      "Completed": true,
       "Losers": true,
       "PicksBans": [],
       "Current": false,
@@ -2153,7 +2156,6 @@
         "Tina",
         "wors"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
@@ -2231,7 +2233,7 @@
           "BeatmapID": 3323076
         }
       ],
-      "Current": true,
+      "Current": false,
       "Date": "2023-08-28T22:13:01.9526164+03:00",
       "ConditionalMatches": [],
       "Position": {
@@ -2246,11 +2248,69 @@
     },
     {
       "ID": 39,
-      "Team1Score": null,
-      "Team2Score": null,
-      "Completed": false,
+      "Team1Acronym": "acco",
+      "Team1Score": 6,
+      "Team2Acronym": "Natu",
+      "Team2Score": 1,
+      "Completed": true,
       "Losers": true,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 1118311
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 813331
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3580335
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3323076
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4661924
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2804225
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3784870
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2858703
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3762049
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3252187
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2217317
+        }
+      ],
       "Current": false,
       "Date": "2023-08-28T22:14:11.2050189+03:00",
       "ConditionalMatches": [],
@@ -2258,15 +2318,19 @@
         "X": 1570,
         "Y": 2080
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "acco",
+        "Natu"
+      ],
       "PointsToWin": 6
     },
     {
       "ID": 55,
-      "Team1Score": null,
+      "Team1Acronym": "Tina",
+      "Team1Score": 5,
       "Team2Acronym": "Alex",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 6,
+      "Completed": true,
       "Losers": true,
       "PicksBans": [],
       "Current": false,
@@ -2277,30 +2341,40 @@
         "Y": 2490
       },
       "Acronyms": [
+        "Tina",
         "Alex"
       ],
+      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
       "ID": 37,
+      "Team1Acronym": "Lucr",
       "Team1Score": null,
+      "Team2Acronym": "acco",
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
       "PicksBans": [],
-      "Current": false,
+      "Current": true,
       "Date": "2023-08-28T22:14:27.0760436+03:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1820,
         "Y": 2040
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "Lucr",
+        "acco"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 7
     },
     {
       "ID": 53,
+      "Team1Acronym": "Kehe",
       "Team1Score": null,
+      "Team2Acronym": "Alex",
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
@@ -2312,7 +2386,11 @@
         "X": 1820,
         "Y": 2450
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "Kehe",
+        "Alex"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 7
     },
     {
@@ -5396,7 +5474,806 @@
       "Description": "",
       "BestOf": 13,
       "BanCount": 1,
-      "Beatmaps": [],
+      "Beatmaps": [
+        {
+          "ID": 2676534,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 2676534,
+            "DifficultyName": "EXTRA",
+            "BPM": 210.0,
+            "Length": 213000.0,
+            "StarRating": 7.53,
+            "EndTimeObjectCount": 376,
+            "TotalObjectCount": 1049,
+            "Metadata": {
+              "Title": "Dilemma",
+              "title_unicode": "Dilemma",
+              "Artist": "BAND-MAID",
+              "artist_unicode": "BAND-MAID",
+              "Author": {
+                "OnlineID": 1872496,
+                "Username": "Meg",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "rock image-- kuei",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.8,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1289326/covers/cover@2x.jpg?1606501833",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1289326/covers/card@2x.jpg?1606501833",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1289326/covers/list@2x.jpg?1606501833"
+            }
+          }
+        },
+        {
+          "ID": 4166422,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 4166422,
+            "DifficultyName": "Fairytale",
+            "BPM": 200.0,
+            "Length": 215000.0,
+            "StarRating": 7.56,
+            "EndTimeObjectCount": 161,
+            "TotalObjectCount": 1791,
+            "Metadata": {
+              "Title": "Gravesinger",
+              "title_unicode": "Gravesinger",
+              "Artist": "Shadow Of Intent",
+              "artist_unicode": "Shadow Of Intent",
+              "Author": {
+                "OnlineID": 11877992,
+                "Username": "riot1133",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.4,
+              "ApproachRate": 9.6,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1912270/covers/cover@2x.jpg?1695322847",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1912270/covers/card@2x.jpg?1695322847",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1912270/covers/list@2x.jpg?1695322847"
+            }
+          }
+        },
+        {
+          "ID": 4335677,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 4335677,
+            "DifficultyName": "Veil",
+            "BPM": 144.0,
+            "Length": 184000.0,
+            "StarRating": 7.01,
+            "EndTimeObjectCount": 376,
+            "TotalObjectCount": 1210,
+            "Metadata": {
+              "Title": "Shitsuraku Petori",
+              "title_unicode": "失楽ペトリ",
+              "Artist": "Nanahoshi Kangengakudan",
+              "artist_unicode": "ナナホシ管弦楽団",
+              "Author": {
+                "OnlineID": 6055351,
+                "Username": "gazimal",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "japanese pop vocaloid",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.4,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2071886/covers/cover@2x.jpg?1699192864",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2071886/covers/card@2x.jpg?1699192864",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2071886/covers/list@2x.jpg?1699192864"
+            }
+          }
+        },
+        {
+          "ID": 4345061,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 4345061,
+            "DifficultyName": "timmy fell off the balance beam and broke his toes",
+            "BPM": 180.0,
+            "Length": 129000.0,
+            "StarRating": 7.06,
+            "EndTimeObjectCount": 286,
+            "TotalObjectCount": 672,
+            "Metadata": {
+              "Title": "Equilibrium",
+              "title_unicode": "Equilibrium",
+              "Artist": "Maozon",
+              "artist_unicode": "Maozon",
+              "Author": {
+                "OnlineID": 8271086,
+                "Username": "nooj",
+                "CountryString": "Unknown"
+              },
+              "Source": "Arcaea",
+              "tags": "sound collection memories of wrath black fate chapter iv video game electronic lowiro instrumental drumstep dnb drum and bass",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.5,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2073176/covers/cover@2x.jpg?1699840829",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2073176/covers/card@2x.jpg?1699840829",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2073176/covers/list@2x.jpg?1699840829"
+            }
+          }
+        },
+        {
+          "ID": 1530253,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 1530253,
+            "DifficultyName": "Unholy Magnificence",
+            "BPM": 235.0,
+            "Length": 181000.0,
+            "StarRating": 7.75,
+            "EndTimeObjectCount": 263,
+            "TotalObjectCount": 1519,
+            "Metadata": {
+              "Title": "Onslaught of the Covenant",
+              "title_unicode": "Onslaught of the Covenant",
+              "Artist": "Inferi",
+              "artist_unicode": "Inferi",
+              "Author": {
+                "OnlineID": 2736673,
+                "Username": "Scarsnic",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "the path of apotheosis melodic technical death metal featured artist",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.5,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.4,
+              "ApproachRate": 10.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/724696/covers/cover@2x.jpg?1516750955",
+              "card@2x": "https://assets.ppy.sh/beatmaps/724696/covers/card@2x.jpg?1516750955",
+              "list@2x": "https://assets.ppy.sh/beatmaps/724696/covers/list@2x.jpg?1516750955"
+            }
+          }
+        },
+        {
+          "ID": 3592503,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 3592503,
+            "DifficultyName": "Expert (AR7 edit ver.)",
+            "BPM": 200.0,
+            "Length": 158000.0,
+            "StarRating": 6.21,
+            "EndTimeObjectCount": 216,
+            "TotalObjectCount": 694,
+            "Metadata": {
+              "Title": "Millennia",
+              "title_unicode": "Millennia",
+              "Artist": "Pixel Terror",
+              "artist_unicode": "Pixel Terror",
+              "Author": {
+                "OnlineID": 4966334,
+                "Username": "DeviousPanda",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "collaboration synthpop indie dance electronic",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.0,
+              "CircleSize": 3.9,
+              "OverallDifficulty": 8.9,
+              "ApproachRate": 7.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1755067/covers/cover@2x.jpg?1654545631",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1755067/covers/card@2x.jpg?1654545631",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1755067/covers/list@2x.jpg?1654545631"
+            }
+          }
+        },
+        {
+          "ID": 1727589,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 1727589,
+            "DifficultyName": "Awakening",
+            "BPM": 196.0,
+            "Length": 236000.0,
+            "StarRating": 7.55,
+            "EndTimeObjectCount": 480,
+            "TotalObjectCount": 1437,
+            "Metadata": {
+              "Title": "Rinne Tensei",
+              "title_unicode": "輪廻転生",
+              "Artist": "Renril",
+              "artist_unicode": "Renril",
+              "Author": {
+                "OnlineID": 3935174,
+                "Username": "Depths",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "osu!idol osu!idol2017 mafumafu cover reincarnarition quu quuzi renril",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.2,
+              "ApproachRate": 9.5,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/824423/covers/cover@2x.jpg?1543453293",
+              "card@2x": "https://assets.ppy.sh/beatmaps/824423/covers/card@2x.jpg?1543453293",
+              "list@2x": "https://assets.ppy.sh/beatmaps/824423/covers/list@2x.jpg?1543453293"
+            }
+          }
+        },
+        {
+          "ID": 3798632,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 3798632,
+            "DifficultyName": "Smaller Celestial",
+            "BPM": 184.0,
+            "Length": 105000.0,
+            "StarRating": 6.31,
+            "EndTimeObjectCount": 83,
+            "TotalObjectCount": 624,
+            "Metadata": {
+              "Title": "Tenkaranbu",
+              "title_unicode": "天嘩乱舞",
+              "Artist": "Konosuke Enosuke",
+              "artist_unicode": "栗須承之介",
+              "Author": {
+                "OnlineID": 10288461,
+                "Username": "Chizu-Kun",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.5,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 8.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1625132/covers/cover@2x.jpg?1665730816",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1625132/covers/card@2x.jpg?1665730816",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1625132/covers/list@2x.jpg?1665730816"
+            }
+          }
+        },
+        {
+          "ID": 3980742,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 3980742,
+            "DifficultyName": "Axilotl's party",
+            "BPM": 157.0,
+            "Length": 196000.0,
+            "StarRating": 6.97,
+            "EndTimeObjectCount": 534,
+            "TotalObjectCount": 957,
+            "Metadata": {
+              "Title": "midnight crisis",
+              "title_unicode": "midnight crisis☆彡",
+              "Artist": "AAAA",
+              "artist_unicode": "ああああ",
+              "Author": {
+                "OnlineID": 19048,
+                "Username": "Mismagius",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "jazz instrumental kuo0 cat サン",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.6,
+              "ApproachRate": 9.8,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1907405/covers/cover@2x.jpg?1676901638",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1907405/covers/card@2x.jpg?1676901638",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1907405/covers/list@2x.jpg?1676901638"
+            }
+          }
+        },
+        {
+          "ID": 3293892,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 3293892,
+            "DifficultyName": "ULTIMATE",
+            "BPM": 194.0,
+            "Length": 137000.0,
+            "StarRating": 7.12,
+            "EndTimeObjectCount": 430,
+            "TotalObjectCount": 842,
+            "Metadata": {
+              "Title": "Fluctuation",
+              "title_unicode": "Fluctuation",
+              "Artist": "Zekk",
+              "artist_unicode": "Zekk",
+              "Author": {
+                "OnlineID": 14537032,
+                "Username": "Volcarona",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.5,
+              "CircleSize": 3.8,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.8,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1613347/covers/cover@2x.jpg?1642829423",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1613347/covers/card@2x.jpg?1642829423",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1613347/covers/list@2x.jpg?1642829423"
+            }
+          }
+        },
+        {
+          "ID": 736215,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 736215,
+            "DifficultyName": "Game Over",
+            "BPM": 110.0,
+            "Length": 257000.0,
+            "StarRating": 7.03,
+            "EndTimeObjectCount": 298,
+            "TotalObjectCount": 1008,
+            "Metadata": {
+              "Title": "Highscore",
+              "title_unicode": "Highscore",
+              "Artist": "Panda Eyes & Teminite",
+              "artist_unicode": "Panda Eyes & Teminite",
+              "Author": {
+                "OnlineID": 2805457,
+                "Username": "Fort",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "lgv894 glitch hop 110 style fxtra over 9000!!!",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.5,
+              "ApproachRate": 9.5,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/332532/covers/cover@2x.jpg?1650631844",
+              "card@2x": "https://assets.ppy.sh/beatmaps/332532/covers/card@2x.jpg?1650631844",
+              "list@2x": "https://assets.ppy.sh/beatmaps/332532/covers/list@2x.jpg?1650631844"
+            }
+          }
+        },
+        {
+          "ID": 4376547,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 4376547,
+            "DifficultyName": "My Grand Illusion",
+            "BPM": 191.0,
+            "Length": 115000.0,
+            "StarRating": 6.65,
+            "EndTimeObjectCount": 143,
+            "TotalObjectCount": 830,
+            "Metadata": {
+              "Title": "The Magician's Dream",
+              "title_unicode": "The Magician's Dream",
+              "Artist": "Toru Kawai",
+              "artist_unicode": "川井遠瑠",
+              "Author": {
+                "OnlineID": 7894340,
+                "Username": "KnightC0re",
+                "CountryString": "Unknown"
+              },
+              "Source": "太鼓の達人",
+              "tags": "owc2023sfhr2 osu! world cup semifinals taiko no tatsujin 新 無印 15 new namco original ナムコオリジナル フルコンボ！ full combo! rhythm video game electronic instrumental",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 5.0,
+              "OverallDifficulty": 8.2,
+              "ApproachRate": 9.2,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2088436/covers/cover@2x.jpg?1702270837",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2088436/covers/card@2x.jpg?1702270837",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2088436/covers/list@2x.jpg?1702270837"
+            }
+          }
+        },
+        {
+          "ID": 4672937,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 4672937,
+            "DifficultyName": ":joy:",
+            "BPM": 240.0,
+            "Length": 145000.0,
+            "StarRating": 6.98,
+            "EndTimeObjectCount": 248,
+            "TotalObjectCount": 802,
+            "Metadata": {
+              "Title": "Baka Tsuushin (feat. Chis-A)",
+              "title_unicode": "バカ通信（feat. 知声）",
+              "Artist": "isonosuke",
+              "artist_unicode": "isonosuke",
+              "Author": {
+                "OnlineID": 12357714,
+                "Username": "Astrolis",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "rescup24 resurrection cup 2024 qf fm2 midorijeon midori japanese pop jpop j-pop vocaloid electronic chisei party people stupid communication idiotic transaction transmission internet wifi gaming gamers memes social media computer carnival __ag xidorn hyasalia newton-",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 3.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2206869/covers/cover@2x.jpg?1723725968",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2206869/covers/card@2x.jpg?1723725968",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2206869/covers/list@2x.jpg?1723725968"
+            }
+          }
+        },
+        {
+          "ID": 4518881,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 4518881,
+            "DifficultyName": "Shaking",
+            "BPM": 140.0,
+            "Length": 170000.0,
+            "StarRating": 6.47,
+            "EndTimeObjectCount": 634,
+            "TotalObjectCount": 918,
+            "Metadata": {
+              "Title": "Zunda Shaking",
+              "title_unicode": "ずんだシェイキング",
+              "Artist": "Namigroove feat. Zundamon & Kasukabe Tsumugi",
+              "artist_unicode": "なみぐる feat. ずんだもん 春日部つむぎ",
+              "Author": {
+                "OnlineID": 4556542,
+                "Username": "Sagu",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "namiguru japanese electronic swing electroswing pop",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.5,
+              "ApproachRate": 9.5,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2145453/covers/cover@2x.jpg?1711971107",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2145453/covers/card@2x.jpg?1711971107",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2145453/covers/list@2x.jpg?1711971107"
+            }
+          }
+        },
+        {
+          "ID": 2463234,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 2463234,
+            "DifficultyName": "Sakura Rein",
+            "BPM": 170.0,
+            "Length": 217000.0,
+            "StarRating": 5.32,
+            "EndTimeObjectCount": 294,
+            "TotalObjectCount": 796,
+            "Metadata": {
+              "Title": "Rainbow Days",
+              "title_unicode": "Rainbow Days",
+              "Artist": "Ceui",
+              "artist_unicode": "Ceui",
+              "Author": {
+                "OnlineID": 1125647,
+                "Username": "Shikibe Mayu",
+                "CountryString": "Unknown"
+              },
+              "Source": "月の彼方で逢いましょう SweetSummerRainbow",
+              "tags": "shizuku- kazato asa tsuki no kanata de aimashou: sweet summer rainbow tsukikanassr tone work's eroge galgame vn visual novel op opening full version jpop j-pop rein sakura pop video game japanese",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.5,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1181354/covers/cover@2x.jpg?1622190231",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1181354/covers/card@2x.jpg?1622190231",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1181354/covers/list@2x.jpg?1622190231"
+            }
+          }
+        },
+        {
+          "ID": 4384548,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 4384548,
+            "DifficultyName": "mad bilbo",
+            "BPM": 150.0,
+            "Length": 142000.0,
+            "StarRating": 5.26,
+            "EndTimeObjectCount": 121,
+            "TotalObjectCount": 877,
+            "Metadata": {
+              "Title": "Black Lair",
+              "title_unicode": "Black Lair",
+              "Artist": "sakuzyo",
+              "artist_unicode": "sakuzyo",
+              "Author": {
+                "OnlineID": 7742067,
+                "Username": "SpokenAway",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "vkgac dt3 grandfinals",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 3.9,
+              "OverallDifficulty": 8.5,
+              "ApproachRate": 8.5,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2091736/covers/cover@2x.jpg?1702839695",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2091736/covers/card@2x.jpg?1702839695",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2091736/covers/list@2x.jpg?1702839695"
+            }
+          }
+        },
+        {
+          "ID": 2257469,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 2257469,
+            "DifficultyName": "Trustlfj's Lunatic",
+            "BPM": 185.0,
+            "Length": 376000.0,
+            "StarRating": 5.28,
+            "EndTimeObjectCount": 763,
+            "TotalObjectCount": 1678,
+            "Metadata": {
+              "Title": "Yuuga ni Sakase, Sumizome no Sakura ~ The Harm of Coming into Existence",
+              "title_unicode": "幽雅に咲かせ、墨染の桜　～ The Harm of Coming into Existence",
+              "Artist": "Demetori",
+              "artist_unicode": "Demetori",
+              "Author": {
+                "OnlineID": 270377,
+                "Username": "jonathanlfj",
+                "CountryString": "Unknown"
+              },
+              "Source": "東方妖々夢　～ Perfect Cherry Blossom.",
+              "tags": "trust happy30 東方project 優雅に咲かせ、墨染の桜 ～ border of life touhou zun melonbooks records - compilation cd-book 東方万葉集 西行寺 幽々子 yuyuko saigyouji c96 tokunan 徳南 kyuuhouji 九宝時 sinen ni nozomu ga gotoshi bloom nobly video game instrumental",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1034179/covers/cover@2x.jpg?1650692496",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1034179/covers/card@2x.jpg?1650692496",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1034179/covers/list@2x.jpg?1650692496"
+            }
+          }
+        },
+        {
+          "ID": 3824170,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 3824170,
+            "DifficultyName": "AJT's Expert!",
+            "BPM": 159.0,
+            "Length": 200000.0,
+            "StarRating": 5.12,
+            "EndTimeObjectCount": 195,
+            "TotalObjectCount": 636,
+            "Metadata": {
+              "Title": "Hey Ya!",
+              "title_unicode": "Hey Ya!",
+              "Artist": "Outkast",
+              "artist_unicode": "Outkast",
+              "Author": {
+                "OnlineID": 9401932,
+                "Username": "fluxie31",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "fluxie fluxies flux3on ajt fsjallink silverboxer 2003 pop electronic hip-hop english the love below speakerboxxx andré lauren benjamin andre 3000 antwan patton big boi",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.6,
+              "OverallDifficulty": 8.5,
+              "ApproachRate": 8.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1788354/covers/cover@2x.jpg?1702960400",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1788354/covers/card@2x.jpg?1702960400",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1788354/covers/list@2x.jpg?1702960400"
+            }
+          }
+        },
+        {
+          "ID": 922172,
+          "Mods": "TB",
+          "BeatmapInfo": {
+            "OnlineID": 922172,
+            "DifficultyName": "Chrono Collapse",
+            "BPM": 274.0,
+            "Length": 498000.0,
+            "StarRating": 7.72,
+            "EndTimeObjectCount": 1076,
+            "TotalObjectCount": 2283,
+            "Metadata": {
+              "Title": "The Azure Arbitrator",
+              "title_unicode": "The Azure Arbitrator",
+              "Artist": "Falcom Sound Team jdk",
+              "artist_unicode": "Falcom Sound Team jdk",
+              "Author": {
+                "OnlineID": 270377,
+                "Username": "jonathanlfj",
+                "CountryString": "Unknown"
+              },
+              "Source": "英雄伝説 碧の軌跡 Evolution",
+              "tags": "j.d.k. legend of heroes ao no kiseki trails of blue rpg game final boss theme stained demiurge kea kiko toshiaki kishi shun kobayashi toshiharu okajima atsushi enomoto toshinori hiramatsu daisuke miyazaki masaru teramae demetori 寺前 甲 宮崎 大輔 平松 俊紀 榎本 敦 岡島 俊治 岸 俊昭 小林 俊",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.3,
+              "ApproachRate": 10.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/427166/covers/cover@2x.jpg?1622100890",
+              "card@2x": "https://assets.ppy.sh/beatmaps/427166/covers/card@2x.jpg?1622100890",
+              "list@2x": "https://assets.ppy.sh/beatmaps/427166/covers/list@2x.jpg?1622100890"
+            }
+          }
+        }
+      ],
       "StartDate": "2023-08-28T20:38:11.0336916+03:00",
       "Matches": [
         16,
@@ -5937,7 +6814,7 @@
     },
     {
       "FullName": "etn",
-      "FlagName": "ET",
+      "FlagName": "etn",
       "Acronym": "etn",
       "SeedingResults": [
         {
